@@ -3,13 +3,14 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>sela.alm.example</groupId>
   <artifactId>example1</artifactId>
+  <version>3.0-SNAPSHOT</version>
   <packaging>war</packaging>
   <name>example 1 Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <parent>
     <groupId>sela.alm.example</groupId>
     <artifactId>parent</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>3.0-SNAPSHOT</version>
   </parent>
   <distributionManagement>
    <snapshotRepository>
@@ -56,6 +57,7 @@
            <configuration>
               <path>/example1</path>
 	      <server>tomcat</server>
+	      <url>${tomcat.url}</url>
             </configuration>
           </execution>
         </executions>
