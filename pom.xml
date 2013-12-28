@@ -4,7 +4,7 @@
   <groupId>sela.alm.example</groupId>
   <artifactId>super</artifactId>
   <packaging>pom</packaging>
-  <version>3.4-SNAPSHOT</version>
+  <version>5.0</version>
   <name>SUPER POM</name>
   <url>http://maven.apache.org</url>
   <distributionManagement>
