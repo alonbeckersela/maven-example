@@ -10,7 +10,7 @@ public class DataTest {
 	public void testGetText() {
 		Data d = new Data();
 		String s = d.getText();
-		assertEquals("Hello example2", s);
+		assertEquals("Hello example1", s);
 	}
 
 }
